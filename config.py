@@ -27,6 +27,6 @@ class Config(object):
     OWNER_ID = int(os.environ.get("OWNER_ID", "5295973607"))
     SESSION_NAME = "UPLOADER-X-BOT"
     # database uri (mongodb)
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://bot1:bot1@cluster0.cuyh4kk.mongodb.net/?retryWrites=true&w=majority")
     MAX_RESULTS = "50"
     PREMIUM_USER = os.environ.get("PREMIUM_USER")
